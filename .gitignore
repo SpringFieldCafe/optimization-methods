@@ -32,3 +32,6 @@ Desktop.ini
 *.docx
 *.doc
 *.pdf
+
+# 本地代理工作规范
+/AGENTS.md
