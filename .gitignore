@@ -1,0 +1,33 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# 本地配置和敏感信息
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# 系统、临时文件和 Office 锁文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.log
+
+# 本地课程材料与报告不上传，保留原始内容
+/example/
+/exp*/doc/
+/exp*/report/
+*.docx
+*.doc
+*.pdf
