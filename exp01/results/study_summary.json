@@ -1,0 +1,148 @@
+{
+  "defaults": {
+    "experiment": "lab01",
+    "seed": 20261001,
+    "samples": 4000,
+    "inner_radius": 0.6,
+    "disk_membership_violations": 0,
+    "annulus_membership_violations": 1398,
+    "annulus_violation_rate": 0.3495,
+    "convex_jensen_violations": 0,
+    "max_convex_jensen_residual": -4.306488998179203e-05,
+    "saddle_jensen_violations": 1957,
+    "max_saddle_jensen_residual": 0.8251235568103512,
+    "quadratic_hessian_eigenvalues": [
+      1.381966011250105,
+      3.618033988749895
+    ],
+    "saddle_hessian_eigenvalues": [
+      -2.0,
+      2.0
+    ],
+    "explicit_saddle_counterexample_residual": 1.0,
+    "explicit_ring_midpoint_norm": 0.0,
+    "explicit_ring_counterexample_valid": true,
+    "tolerance": 1e-10,
+    "interpretation": "Sampling finds counterexamples; convexity is established analytically by the PSD Hessian and the norm inequality."
+  },
+  "sample_comparison": [
+    {
+      "samples": 100,
+      "inner_radius": 0.6,
+      "seed": 20261001,
+      "tolerance": 1e-10,
+      "annulus_violations": 36,
+      "annulus_violation_rate": 0.36,
+      "quadratic_violations": 0,
+      "max_quadratic_residual": -0.00033460670605228726,
+      "saddle_violations": 51,
+      "saddle_violation_rate": 0.51
+    },
+    {
+      "samples": 1000,
+      "inner_radius": 0.6,
+      "seed": 20261001,
+      "tolerance": 1e-10,
+      "annulus_violations": 362,
+      "annulus_violation_rate": 0.362,
+      "quadratic_violations": 0,
+      "max_quadratic_residual": -1.2993536825212093e-05,
+      "saddle_violations": 492,
+      "saddle_violation_rate": 0.492
+    },
+    {
+      "samples": 10000,
+      "inner_radius": 0.6,
+      "seed": 20261001,
+      "tolerance": 1e-10,
+      "annulus_violations": 3488,
+      "annulus_violation_rate": 0.3488,
+      "quadratic_violations": 0,
+      "max_quadratic_residual": -1.0000223529260666e-05,
+      "saddle_violations": 5063,
+      "saddle_violation_rate": 0.5063
+    }
+  ],
+  "radius_comparison": [
+    {
+      "samples": 4000,
+      "inner_radius": 0.0,
+      "seed": 20261001,
+      "tolerance": 1e-10,
+      "annulus_violations": 0,
+      "annulus_violation_rate": 0.0,
+      "quadratic_violations": 0,
+      "max_quadratic_residual": -4.306488998179203e-05,
+      "saddle_violations": 1957,
+      "saddle_violation_rate": 0.48925
+    },
+    {
+      "samples": 4000,
+      "inner_radius": 0.3,
+      "seed": 20261001,
+      "tolerance": 1e-10,
+      "annulus_violations": 479,
+      "annulus_violation_rate": 0.11975,
+      "quadratic_violations": 0,
+      "max_quadratic_residual": -4.306488998179203e-05,
+      "saddle_violations": 1957,
+      "saddle_violation_rate": 0.48925
+    },
+    {
+      "samples": 4000,
+      "inner_radius": 0.6,
+      "seed": 20261001,
+      "tolerance": 1e-10,
+      "annulus_violations": 1398,
+      "annulus_violation_rate": 0.3495,
+      "quadratic_violations": 0,
+      "max_quadratic_residual": -4.306488998179203e-05,
+      "saddle_violations": 1957,
+      "saddle_violation_rate": 0.48925
+    },
+    {
+      "samples": 4000,
+      "inner_radius": 0.8,
+      "seed": 20261001,
+      "tolerance": 1e-10,
+      "annulus_violations": 2227,
+      "annulus_violation_rate": 0.55675,
+      "quadratic_violations": 0,
+      "max_quadratic_residual": -4.306488998179203e-05,
+      "saddle_violations": 1957,
+      "saddle_violation_rate": 0.48925
+    }
+  ],
+  "hessian_comparison": [
+    {
+      "case": "positive_definite",
+      "eigenvalue_min": 1.381966011250105,
+      "eigenvalue_max": 3.618033988749895,
+      "violations": 0,
+      "max_residual": -4.306488998179203e-05,
+      "direction_e2_curvature": 2.0
+    },
+    {
+      "case": "positive_semidefinite",
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 1.0,
+      "violations": 0,
+      "max_residual": -5.614365514161612e-09,
+      "direction_e2_curvature": 0.0
+    },
+    {
+      "case": "indefinite",
+      "eigenvalue_min": -0.2,
+      "eigenvalue_max": 1.0,
+      "violations": 1043,
+      "max_residual": 0.07980893172648656,
+      "direction_e2_curvature": -0.2
+    }
+  ],
+  "csv_audit_max_error": 1.1102230246251565e-16,
+  "environment": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.8"
+  }
+}

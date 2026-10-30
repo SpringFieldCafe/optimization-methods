@@ -1,0 +1,26 @@
+{
+  "experiment": "lab01",
+  "seed": 20261001,
+  "samples": 4000,
+  "inner_radius": 0.6,
+  "disk_membership_violations": 0,
+  "annulus_membership_violations": 1398,
+  "annulus_violation_rate": 0.3495,
+  "convex_jensen_violations": 0,
+  "max_convex_jensen_residual": -4.306488998179203e-05,
+  "saddle_jensen_violations": 1957,
+  "max_saddle_jensen_residual": 0.8251235568103512,
+  "quadratic_hessian_eigenvalues": [
+    1.381966011250105,
+    3.618033988749895
+  ],
+  "saddle_hessian_eigenvalues": [
+    -2.0,
+    2.0
+  ],
+  "explicit_saddle_counterexample_residual": 1.0,
+  "explicit_ring_midpoint_norm": 0.0,
+  "explicit_ring_counterexample_valid": true,
+  "tolerance": 1e-10,
+  "interpretation": "Sampling finds counterexamples; convexity is established analytically by the PSD Hessian and the norm inequality."
+}

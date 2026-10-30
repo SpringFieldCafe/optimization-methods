@@ -1,0 +1,8 @@
+name: optimization-methods
+channels:
+  - https://mirror.nju.edu.cn/anaconda/cloud/conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10.20
+  - numpy=2.2.6
+  - matplotlib=3.10.8

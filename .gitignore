@@ -28,6 +28,7 @@ Desktop.ini
 /example/
 /exp*/doc/
 /exp*/report/
+/exp*/.local/
 *.docx
 *.doc
 *.pdf

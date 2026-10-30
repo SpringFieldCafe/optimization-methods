@@ -1,0 +1,4 @@
+case,eigenvalue_min,eigenvalue_max,violations,max_residual,direction_e2_curvature
+positive_definite,1.381966011250105,3.618033988749895,0,-4.306488998179203e-05,2.0
+positive_semidefinite,0.0,1.0,0,-5.614365514161612e-09,0.0
+indefinite,-0.2,1.0,1043,0.07980893172648656,-0.2

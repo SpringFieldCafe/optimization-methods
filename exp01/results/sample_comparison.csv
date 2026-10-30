@@ -1,0 +1,4 @@
+samples,inner_radius,seed,tolerance,annulus_violations,annulus_violation_rate,quadratic_violations,max_quadratic_residual,saddle_violations,saddle_violation_rate
+100,0.6,20261001,1e-10,36,0.36,0,-0.00033460670605228726,51,0.51
+1000,0.6,20261001,1e-10,362,0.362,0,-1.2993536825212093e-05,492,0.492
+10000,0.6,20261001,1e-10,3488,0.3488,0,-1.0000223529260666e-05,5063,0.5063
